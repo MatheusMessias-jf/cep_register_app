@@ -1,4 +1,4 @@
-import 'package:cep_register_app/pages/consulta_cep.dart';
+import 'package:cep_register_app/pages/consulta_cep_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.deepPurple,
           textTheme: GoogleFonts.robotoTextTheme()),
-      home: const ConsultaCep(),
+      home: const ConsultaCepPage(),
     );
   }
 }
